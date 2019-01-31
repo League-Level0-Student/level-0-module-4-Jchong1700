@@ -40,7 +40,32 @@ int joboffer = JOptionPane.showOptionDialog(null, "The beggar rips off his rags 
 		+ "kindess I extend my own! Will you join me as my apprentice?", "THE JOB", 0, 
 		JOptionPane.INFORMATION_MESSAGE, null, new String[] {"Become the sorcerer's \n apprentice","Refuse "
 				+ "the the sorcerer and \n look for work elsewhere"}, null);
-}
+	if (joboffer == 0) {
+		JOptionPane.showMessageDialog(null, "You take the sorcerer's hand and he brings you to his tower where \n "
+				+ "he trains you to be a strong sorcerer!", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "With your new job, you're able to sustain your family", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "With your newfound wealth and fame as a \n renowned sorcerer, you're forever happy!"
+				,"THE END?", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 3 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+	}
+	if (joboffer==1) {
+		JOptionPane.showMessageDialog(null, "Xanith the sorcerer's jaw drops. \n He watches, wide eyed as you walk away to \n"
+				+ "find work somewhere else", "THE REFUSAL",JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "You find work in a bakery, and work hard over the years. \n"
+				+ "When the owner passes away, he gives you the bakery! You continue to\n"
+				+ "work there through the rest of your days. "
+				, "THE END?", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 4 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);}
+		if (joboffer == 0) {
+			JOptionPane.showMessageDialog(null, "You take the sorcerer's hand and he brings you to his tower where \n "
+					+ "he trains you to be a strong sorcerer!");
+			JOptionPane.showMessageDialog(null, "With your new job, you're able to sustain your family");
+			JOptionPane.showMessageDialog(null, "With your newfound wealth and fame as a \n renowned sorcerer, you're forever happy!"
+					,"THE END?", JOptionPane.DEFAULT_OPTION);
+			JOptionPane.showMessageDialog(null, "THE END?\n ENDING 3 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+		}
+	}
+
 if (beggar ==1) {
 	JOptionPane.showMessageDialog(null, "The beggar rips off his rags to reveal "
 		+ "himself as a sorcerer! ", "THE BEGGAR", JOptionPane.DEFAULT_OPTION);
@@ -60,7 +85,7 @@ if (beggar ==1) {
 				+ " You get hit with another round of missiles, knocking you out!", "THE MISSILES", JOptionPane.DEFAULT_OPTION);
 		JOptionPane.showMessageDialog(null, "When you wake up, all your stuff is gone! \n"
 				+ "You head home with empty pockets...", "THE END?", JOptionPane.DEFAULT_OPTION);
-		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 		
 	}
 	
@@ -71,7 +96,7 @@ if (beggar ==1) {
 		JOptionPane.showMessageDialog(null, "The fireball hits you burning you to ashes!", "THE FIREBALL",JOptionPane.DEFAULT_OPTION);
 	JOptionPane.showMessageDialog(null, "Maybe pissing off that sorcerer was a bad idea...", "THE END?", 
 			JOptionPane.DEFAULT_OPTION);
-	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 	}
 }
 }
@@ -105,6 +130,29 @@ int joboffer = JOptionPane.showOptionDialog(null, "The beggar rips off his rags 
 		+ "kindess I extend my own! Will you join me as my apprentice?", "THE JOB", 0, 
 		JOptionPane.INFORMATION_MESSAGE, null, new String[] {"Become the sorcerer's \n apprentice","Refuse "
 				+ "the the sorcerer and \n look for work elsewhere"}, null);
+if (joboffer==1) {
+	JOptionPane.showMessageDialog(null, "Xanith the sorcerer's jaw drops. \n He watches, wide eyed as you walk away to \n"
+			+ "find work somewhere else", "THE REFUSAL",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "You find work in a bakery, and work hard over the years. \n"
+			+ "When the owner passes away, he gives you the bakery! You continue to\n"
+			+ "work there through the rest of your days. "
+			, "THE END?", JOptionPane.DEFAULT_OPTION);
+	if (joboffer==1) {
+		JOptionPane.showMessageDialog(null, "Xanith the sorcerer's jaw drops. \n He watches, wide eyed as you walk away to \n"
+				+ "find work somewhere else", "THE REFUSAL",JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "You find work in a bakery, and work hard over the years. \n"
+				+ "When the owner passes away, he gives you the bakery! You continue to\n"
+				+ "work there through the rest of your days. "
+				, "THE END?", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 4 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);}
+if (joboffer == 0) {
+	JOptionPane.showMessageDialog(null, "You take the sorcerer's hand and he brings you to his tower where \n "
+			+ "he trains you to be a strong sorcerer!", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "With your new job, you're able to sustain your family", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "With your newfound wealth and fame as a \n renowned sorcerer, you're forever happy!"
+			,"THE END?", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 3 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+}
 }
 if (beggar ==1) {
 	JOptionPane.showMessageDialog(null, "The beggar rips off his rags to reveal "
@@ -125,7 +173,7 @@ if (beggar ==1) {
 				+ " You get hit with another round of missiles, knocking you out!", "THE MISSILES", JOptionPane.DEFAULT_OPTION);
 		JOptionPane.showMessageDialog(null, "When you wake up, all your stuff is gone! \n"
 				+ "You head home with empty pockets...", "THE END?", JOptionPane.DEFAULT_OPTION);
-		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 		
 	}
 	
@@ -136,13 +184,13 @@ if (beggar ==1) {
 		JOptionPane.showMessageDialog(null, "The fireball hits you burning you to ashes!", "THE FIREBALL",JOptionPane.DEFAULT_OPTION);
 	JOptionPane.showMessageDialog(null, "Maybe pissing off that sorcerer was a bad idea...", "THE END?", 
 			JOptionPane.DEFAULT_OPTION);
-	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 	}
 }
 }
 
 
-
+}
 if(gender == 2) {
 JOptionPane.showMessageDialog(null, heroName + " lived in poverty with their family since a young age."
 		+  "\n It was practically decided since they was born that"
@@ -170,6 +218,22 @@ int joboffer = JOptionPane.showOptionDialog(null, "The beggar rips off his rags 
 		+ "kindess I extend my own! Will you join me as my apprentice?", "THE JOB", 0, 
 		JOptionPane.INFORMATION_MESSAGE, null, new String[] {"Become the sorcerer's \n apprentice","Refuse "
 				+ "the the sorcerer and \n look for work elsewhere"}, null);
+if (joboffer==1) {
+	JOptionPane.showMessageDialog(null, "Xanith the sorcerer's jaw drops. \n He watches, wide eyed as you walk away to \n"
+			+ "find work somewhere else", "THE REFUSAL",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "You find work in a bakery, and work hard over the years. \n"
+			+ "When the owner passes away, he gives you the bakery! You continue to\n"
+			+ "work there through the rest of your days. "
+			, "THE END?", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 4 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);}
+if (joboffer == 0) {
+	JOptionPane.showMessageDialog(null, "You take the sorcerer's hand and he brings you to his tower where \n "
+			+ "he trains you to be a strong sorcerer!", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "With your new job, you're able to sustain your family", "THE APPRENTICE",JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "With your newfound wealth and fame as a \n renowned sorcerer, you're forever happy!"
+			,"THE END?", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 3 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+}
 }
 if (beggar ==1) {
 	JOptionPane.showMessageDialog(null, "The beggar rips off his rags to reveal "
@@ -190,7 +254,7 @@ if (beggar ==1) {
 				+ " You get hit with another round of missiles, knocking you out!", "THE MISSILES", JOptionPane.DEFAULT_OPTION);
 		JOptionPane.showMessageDialog(null, "When you wake up, all your stuff is gone! \n"
 				+ "You head home with empty pockets...", "THE END?", JOptionPane.DEFAULT_OPTION);
-		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+		JOptionPane.showMessageDialog(null, "THE END?\n ENDING 1 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 		
 	}
 	
@@ -201,7 +265,7 @@ if (beggar ==1) {
 		JOptionPane.showMessageDialog(null, "The fireball hits you burning you to ashes!", "THE FIREBALL",JOptionPane.DEFAULT_OPTION);
 	JOptionPane.showMessageDialog(null, "Maybe pissing off that sorcerer was a bad idea...", "THE END?", 
 			JOptionPane.DEFAULT_OPTION);
-	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2/ ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
+	JOptionPane.showMessageDialog(null, "THE END?\n ENDING 2 ACHEIVED", "THE END", JOptionPane.DEFAULT_OPTION);
 	}
 }
 }
